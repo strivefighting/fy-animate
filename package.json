@@ -1,6 +1,6 @@
 {
   "name": "fy-animate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple patch animation running in the browser",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,11 @@
   "scripts": {
     "build": "npx tsc -p ."
   },
-  "keywords": ["animate", "js", "ts"],
+  "keywords": [
+    "animate",
+    "js",
+    "ts"
+  ],
   "author": "fychonger <454228224@qq.com>",
   "license": "MIT",
   "devDependencies": {
