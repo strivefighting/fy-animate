@@ -1,4 +1,5 @@
 import Animate from '../../dist/index.js';
+
 ;(function(){
     const btn = document.querySelector('button');
     btn.addEventListener('click', function() {
