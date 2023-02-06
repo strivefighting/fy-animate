@@ -1,6 +1,6 @@
 {
   "name": "fy-animate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple patch animation running in the browser",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
