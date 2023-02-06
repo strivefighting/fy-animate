@@ -6,15 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            padding: 50px;
+        }
         button {
-            margin-top: 200px;
+            margin-top: 100px;
+        }
+
+        #div {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            line-height: 50px;
+            color: white;
+            text-align: center;
+            background-color: pink;
         }
     </style>
 </head>
 <body>
-    
-    <div style="position: absolute; color: red;" id="div">我是div</div>
-    <button>开始</button>
+    <div id="div"></div>
+    <button>Start</button>
     <script src="./main.js"></script>
 </body>
 </html>
